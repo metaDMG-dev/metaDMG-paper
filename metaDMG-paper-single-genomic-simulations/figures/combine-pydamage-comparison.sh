@@ -1,0 +1,1 @@
+pdfjam --nup 2x6 --frame true --noautoscale false --delta "0.2cm 0.3cm" --scale 0.95 --a4paper pydamage_comparison2-without-10-reads.pdf --outfile pydamage_comparison2-without-10-reads-combined.pdf

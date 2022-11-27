@@ -1,0 +1,63 @@
+[tool.poetry]
+name = "metadmg-simulations"
+version = "0.1.0"
+description = ""
+authors = ["Christian Michelsen <christianmichelsen@gmail.com>"]
+readme = "README.md"
+# packages = [{include = "metadmg_simulations"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+pysam = "^0.19.1"
+parse = "^1.19.0"
+pandas = "^1.4.3"
+seaborn = "^0.11.2"
+biopython = "^1.79"
+pyarrow = "^9.0.0"
+# dash = {version = "^2.6.1", extras = ["diskcache"]}
+# metadmg = {version = "^0.32.0", extras = ["all"]}
+numpyro = "^0.10.0"
+llvmlite = "^0.39.1"
+# numpy = "^1.23.3"
+dash-bootstrap-components = "^1.2.1"
+cycler = "^0.11.0"
+Pillow = "^9.2.0"
+kiwisolver = "^1.4.4"
+ipywidgets = "^7.7.1"
+fonttools = "^4.34.4"
+xarray = "^2022.6.0"
+cfgrib = "^0.9.10.1"
+netCDF4 = "^1.6.0"
+h5netcdf = "^1.0.2"
+Pydap = "^3.2.2"
+fsspec = "^2022.7.1"
+cftime = "^1.6.1"
+pooch = "^1.6.0"
+pydap = {git = "https://github.com/pydap/pydap", rev = "3.3.0"}
+eccodes = "^1.4.2"
+ecmwflibs = "^0.4.17"
+plotly = "^5.10.0"
+joblib = "^1.1.0"
+SciencePlots = "^1.0.9"
+engineering-notation = "^0.6.0"
+# statsmodels = "^0.13.2"
+statsmodels = "^0.13.2"
+scikit-learn = "^1.1.2"
+pymc = "^4.2.0"
+bambi = "^0.9.1"
+metadmg = {version = "^0.35.7", extras = ["all"]}
+numba = "^0.56.2"
+bokeh = "^2.4.3"
+pygraphviz = "^1.10"
+graphviz = "^0.20.1"
+adjustText = "^0.7.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.15.0"
+# black = {version = "^22.6.0", allow-prereleases = true}
+black = {version = "^22.6.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

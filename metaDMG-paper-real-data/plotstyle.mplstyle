@@ -1,0 +1,47 @@
+xtick.color: 323034
+xtick.labelsize: 12
+ytick.color: 323034
+ytick.labelsize: 12
+patch.facecolor: bc80bd
+patch.force_edgecolor: True
+patch.linewidth: 0.8
+# scatter.edgecolors: black
+errorbar.capsize: 4
+grid.color: b1afb5
+lines.linewidth: 1.5
+# lines.markeredgecolor: black
+legend.title_fontsize: 12
+legend.frameon: False
+legend.framealpha: 0.8
+legend.fontsize: 10
+legend.edgecolor: 0.9
+legend.borderpad: 0.2
+legend.columnspacing: 1.5
+legend.labelspacing: 0.4
+axes.titlesize: 16
+axes.labelsize: 12
+# axes.prop_cycle: (cycler('color', ["80b1d3", "fb8072", "b3de69", "bc80bd", "ffed6f", "8dd3c7", "fdb462", "fccde5", "bebada", "ccebc5", "d9d9d9"]))
+# axes.prop_cycle: (cycler('color', ["59b8fa", "fb8072", "58df06", "b36fb5",  "c0c0c0", "ffe73c", "9f99c8", "f99dcc","abde9f", "fda849",  "68c5b5"]))
+axes.prop_cycle: (cycler('color', ["3BA0E7", "E7554C", "00B050", "b36fb5",  "c0c0c0", "FFC000", "9f99c8", "f99dcc","abde9f", "fda849",  "68c5b5"]))
+axes.titlelocation: center
+axes.formatter.use_mathtext: True
+axes.autolimit_mode: round_numbers
+axes.labelpad: 3
+axes.formatter.limits: -4, 4
+axes.labelcolor: black
+axes.edgecolor: black
+axes.linewidth: 0.6
+axes.spines.right: False
+axes.spines.top: False
+axes.grid: False
+figure.titlesize: 18
+figure.dpi: 300
+figure.figsize: 6, 4
+# font.family: STIXGeneral
+# mathtext.fontset: stix
+font.size: 11
+font.family: serif
+font.serif: Palatino
+text.color: 323034
+text.usetex: True
+text.latex.preamble: \usepackage{amsmath}\usepackage{amssymb}\usepackage{siunitx}[=v2]
