@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# taken from https://github.com/zenodo/zenodo/issues/1036
+
 # Go to root directory of repo
 cd "$(dirname "${BASH_SOURCE[0]}")"
 cd "$(git rev-parse --show-toplevel)"
