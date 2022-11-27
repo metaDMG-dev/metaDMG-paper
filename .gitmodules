@@ -1,3 +1,6 @@
 [submodule "metaDMG-paper-real-data"]
 	path = metaDMG-paper-real-data
 	url = https://github.com/ChristianMichelsen/metaDMG-paper-real-data
+[submodule "metaDMG-paper-single-genomic-simulations"]
+	path = metaDMG-paper-single-genomic-simulations
+	url = https://github.com/ChristianMichelsen/metaDMG-paper-single-genomic-simulations
