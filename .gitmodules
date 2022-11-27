@@ -4,3 +4,6 @@
 [submodule "metaDMG-paper-single-genomic-simulations"]
 	path = metaDMG-paper-single-genomic-simulations
 	url = https://github.com/ChristianMichelsen/metaDMG-paper-single-genomic-simulations
+[submodule "metaDMG-paper-metagenomic-simulations"]
+	path = metaDMG-paper-metagenomic-simulations
+	url = https://github.com/ChristianMichelsen/metaDMG-paper-metagenomic-simulations
