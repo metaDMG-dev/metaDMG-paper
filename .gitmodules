@@ -1,0 +1,3 @@
+[submodule "metaDMG-paper-real-data"]
+	path = metaDMG-paper-real-data
+	url = https://github.com/ChristianMichelsen/metaDMG-paper-real-data
